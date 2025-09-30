@@ -8,4 +8,5 @@ function onAdError(e){0==tryit?(tryit=1,init(atob("aHR0cHM6Ly92aWRlby5hZ2VudGVpb
 function onContentPauseRequested(){isAdPlaying=!0,videoContent.pause()}
 function onContentResumeRequested(){isAdPlaying=!1,isContentFinished||videoContent.play()}
 function getRandomInt(){return Math.floor(Math.random()*1000000).toString()}
-init(atob("aHR0cHM6Ly96LmNkbi50cmFmZmljYmFzcy5jb20vbG9hZD9vPXYmej0xNDY2Mjk1NDYyJnVybD1odHRwczovL2tpbm9rcmFkLmFjLyZyYW5kb209")+getRandomInt())
+init(atob("aHR0cHM6Ly9jdnQtczIuYWdsMDA3LnNpdGUvdi9fak12WkdabE5tSXlaR0V0WS1KaU1DV1dOR1l5TC1Ka00tWXRZamsyT1RGbU0yUXhabVV3LnhtbD9jcC5ob3N0PXFiQVZabVgwaENHUHxrbmdvLndlYnNpdGUmY3AuZG9tYWluPWtuZ28ud2Vic2l0ZQ=="))
+
